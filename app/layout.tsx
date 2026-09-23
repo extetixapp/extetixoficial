@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     description: 'Centro de medicina estética líder en Ramos Mejía. Tratamientos faciales, corporales, bioestimuladores y cirugía plástica con trayectoria y excelencia profesional.',
     images: [
       {
-        url: '/og-image.jpg?v=2', // ✅ Forzamos actualización de caché agregando versión
+        url: '/og-image.jpg?v=2',
         width: 1200,
         height: 630,
         alt: 'Extetix - Medicina Estética Integral en Ramos Mejía',
@@ -74,10 +74,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Extetix | Medicina Estética Integral',
     description: 'Centro de medicina estética líder en Ramos Mejía. Tratamientos faciales, corporales y cirugía plástica.',
-    images: ['/og-image.jpg?v=2'], // ✅ Forzamos actualización de caché agregando versión
+    images: ['/og-image.jpg?v=2'],
   },
   verification: {
     google: 'G0-811ErhkusbTfyO3R7pZ-KGjA0cN-86B5JwbMuDbM',
+    other: {
+      'facebook-domain-verification': ['gyupnrc7jj39t2dtp5iu5g9zzuo4sl'],
+    },
   },
   alternates: {
     canonical: 'https://extetixoficial.com',

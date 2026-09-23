@@ -25,14 +25,14 @@ export default function Page() {
       </a>
     </div>
     
-    <div className="hidden md:flex items-center gap-10 text-[10px] uppercase tracking-[0.3em] text-[#C5A059]">
+    <div className="hidden md:flex items-center gap-10 text-[10px] uppercase tracking-[0.3em] text-brand-primary">
       <a href="/#quienes-somos" className="hover:text-[#2C3E2D] transition">Quiénes Somos</a>
       <a href="/#tratamientos" className="hover:text-[#2C3E2D] transition">Tratamientos</a>
       <a href="/#contacto" className="hover:text-[#2C3E2D] transition">Contacto</a>
     </div>
     
     <div className="flex items-center gap-5">
-      <div className="hidden md:flex items-center gap-5 text-[#C5A059]">
+      <div className="hidden md:flex items-center gap-5 text-brand-primary">
         <a href="https://www.instagram.com/drbeauty.ramos" target="_blank">
           <Instagram size={20} />
         </a>
@@ -42,7 +42,7 @@ export default function Page() {
       </div>
 
       <button 
-        className="md:hidden text-[#C5A059]" 
+        className="md:hidden text-brand-primary" 
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -51,7 +51,7 @@ export default function Page() {
   </div>
 
   {isMenuOpen && (
-    <div className="md:hidden bg-white border-t py-6 flex flex-col items-center gap-5 text-[10px] uppercase tracking-[0.3em] text-[#C5A059]">
+    <div className="md:hidden bg-white border-t py-6 flex flex-col items-center gap-5 text-[10px] uppercase tracking-[0.3em] text-brand-primary">
       <a href="/#quienes-somos" onClick={() => setIsMenuOpen(false)}>Quiénes Somos</a>
       <a href="/#tratamientos" onClick={() => setIsMenuOpen(false)}>Tratamientos</a>
       <a href="/#contacto" onClick={() => setIsMenuOpen(false)}>Contacto</a>
@@ -61,7 +61,7 @@ export default function Page() {
 
       {/* HERO */}
       <section className="py-20 px-6 text-center bg-[#F2F2F2]">
-        <h1 className="text-4xl md:text-6xl font-serif text-[#C5A059] mb-6">
+        <h1 className="text-4xl md:text-6xl font-serif text-brand-primary mb-6">
           Tratamiento de Arrugas en Ramos Mejía
         </h1>
 
@@ -136,12 +136,12 @@ export default function Page() {
 
           <div className="text-center space-y-6">
             <div>
-              <h4 className="text-[#C5A059] text-xs uppercase mb-2">Horarios</h4>
+              <h4 className="text-brand-primary text-xs uppercase mb-2">Horarios</h4>
               <p>Lunes a Sábados 10:00 a 18:00</p>
             </div>
 
             <div>
-              <h4 className="text-[#C5A059] text-xs uppercase mb-2">Contacto</h4>
+              <h4 className="text-brand-primary text-xs uppercase mb-2">Contacto</h4>
               <a 
                 href={`https://wa.me/${WHATSAPP_NUMBER}`}
                 className="flex justify-center items-center gap-2"
@@ -153,7 +153,7 @@ export default function Page() {
           </div>
 
           <div className="text-center space-y-6">
-            <h4 className="text-[#C5A059] text-xs uppercase mb-2">Dirección</h4>
+            <h4 className="text-brand-primary text-xs uppercase mb-2">Dirección</h4>
             <a 
               href="https://www.google.com/maps/search/?api=1&query=Av.+De+Mayo+618"
               target="_blank"

@@ -39,35 +39,35 @@ export default function Home() {
       subtitulo: "Botox",
       desc: "Suaviza arrugas de expresión en frente, entrecejo y patas de gallo para una mirada descansada.",
       img: "/inyecbtx.jpg",
-      link: "/botoxramos"
+      link: "/faciales/botoxramos"
     },
     {
       titulo: "Tercio Medio",
       subtitulo: "Ácido Hialurónico",
       desc: "Reposición de volumen en pómulos, tratamiento de ojeras y rinomodelación sin cirugía.",
       img: "/facialesrino.jpeg",
-      link: "/tratamientos/acido-hialuronico"
+      link: "/faciales/acido"
     },
     {
       titulo: "Tercio Inferior",
       subtitulo: "Armonización",
       desc: "Perfilado de labios, surcos nasogenianos y definición del contorno mandibular y mentón.",
       img: "/facialesmenton.jpeg",
-      link: "/tratamientos/armonizacion"
+      link: "/faciales/armonizacion"
     },
     {
       titulo: "Bioestimulación",
       subtitulo: "Plasma Rico en Plaquetas",
       desc: "Tratamiento autólogo que utiliza tus propios factores de crecimiento para regenerar y dar luminosidad a la piel.",
       img: "/facialesprp.jpeg",
-      link: "/tratamientos/prp"
+      link: "/faciales/prp"
     },
     {
       titulo: "Efecto Lifting",
       subtitulo: "Hilos Tensores",
       desc: "Redefinición del óvalo facial y tratamiento de la flacidez mediante hilos de polidioxanona (PDO) de última generación.",
       img: "/facialeshilos.jpeg",
-      link: "/tratamientos/hilos-tensores"
+      link: "/faciales/hilos"
     }
   ];
 

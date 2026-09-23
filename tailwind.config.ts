@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        // Tu nuevo esquema de colores
+        brand: {
+          primary: '#A0A0A0', // Color Plata Principal
+          secondary: '#D1D1D1', // Gris claro para bordes
+          dark: '#4A4A4A',      // Gris oscuro para textos
+        },
       },
     },
   },
