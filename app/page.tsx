@@ -611,7 +611,7 @@ export default function Home() {
                 <div className="p-3 border border-[#C5A059] rounded-full group-hover:bg-[#C5A059] group-hover:text-white transition-all">
                   <Instagram size={24} strokeWidth={1} />
                 </div>
-                <span className="text-[10px] uppercase tracking-[0.4em] font-medium">@extetix.original</span>
+                <span className="text-[10px] uppercase tracking-[0.4em] font-medium">@extetix.oficial</span>
               </a>
             </div>
           </div>
